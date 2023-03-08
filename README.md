@@ -18,7 +18,7 @@ A songbook.
 1. Adendale
 1. Goodbye everybody / L’un vient de l'autre
 
-## Lisburn Road
+## Mount Charles
 
 1. Fous-moi la paix
 1. Lisburn road
@@ -33,7 +33,6 @@ A songbook.
 1. Gnus bleus
 1. Lover cover me
 1. Jusqu’à ces derniers temps
-
 
 ## Palm Drive
 
@@ -50,6 +49,13 @@ A songbook.
 1. This one's for Jen Grahamm
 1. Help me get my feet on the ground
 1. Down with the ramparts
+
+## Newberry Road
+
+1. Victory in Jesus
+1. Ose Shalom Bimromav
+1. Great is Thy Faithfulness
+1. Kol Adonai
 
 ## Impasse de la Blonde
 

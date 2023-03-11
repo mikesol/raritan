@@ -21,7 +21,6 @@ Un manque de joie me prend
 Tu peux m'étouffer de chaleur<br/>
 Car cette confiance, cette ruse, elles dissimulent la peur<br/>
 Non je veux pas ça<br/>
-Surtout quand t'es pas là<br/>
+Cette emprise de l'au delà<br/>
 Et c'est grâce à toi<br/>
 Je ramasse des bouts de moi
-

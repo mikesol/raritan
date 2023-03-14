@@ -10,7 +10,7 @@ rh = \relative c' {
     <cis fis b>4.
     <d g c>4.
     <b dis fis>4.
-    <c e fis bes>4.
+    <c e gis b>4. % this is a change i made from the original when playing back the first recorded draft.
     <d fis g>4.
     <des f g c>4.
     <cis f a>4.

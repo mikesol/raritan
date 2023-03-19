@@ -45,9 +45,9 @@ A songbook.
 1. Bill
 1. Sangria
 1. It's getting old
-1. Loving you was the craziest thing
-1. This one's for Jen Grahamm
+1. Little Hoosey Goosey
 1. Help me get my feet on the ground
+1. Loving you was the craziest thing
 1. Down with the ramparts
 
 ## Newberry Road

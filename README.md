@@ -86,5 +86,5 @@ A songbook.
 1. But not the hippopotamus 
 1. A da da
 1. It's ok
-1. Hei Maija (Kultani Rakas)
+1. Hei Maija
 1. Tänään

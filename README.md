@@ -80,7 +80,7 @@ A songbook.
 1. Remember Maija says what?
 1. Dynamo
 1. Everybody's favorite little girl
-1. Maija Shannon Ulrika
+1. Sometimes she cries herself to sleep
 1. Overtime
 1. Good morning to you
 1. Eskari girl

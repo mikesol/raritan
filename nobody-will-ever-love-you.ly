@@ -3,27 +3,27 @@
 melody = \relative c' {
     \repeat segno 2 {
         \repeat volta 2 {
-          d4^\mp^\< d d |
-          d2^\> bes4 |
-          c4^\mp d8 d4. |
+          d4 d d |
+          d2 bes4 |
+          c4 d8 d4. |
           r2 r8 ees,8 |
           d'4 d d |
           d c bes |
           c4^\< d8 ees4. |
           d2^\> c4 |
           \codaMark \default
-          b8^\mp a b a b a |
+          b8 a b a b a |
           b4. a4 r8 |
-          g4^\< ( b ) d |
-          g2^\> fis4 |
+          g4 ( b ) d |
+          g2 fis4 |
           \alternative {
             \volta 1 {
-              e2.^\mp |
+              e2. |
               R |
               R |
             }
             \volta 2 {
-              f2.^\mp |
+              f2. |
               R |
             }
           }

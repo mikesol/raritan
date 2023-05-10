@@ -28,7 +28,7 @@ A songbook.
 1. Swirving
 1. Christmas time
 1. He's my savior
-1. Falling apart at the seams
+1. Chester
 1. Come home
 1. Gnus bleus
 1. Lover cover me
@@ -80,11 +80,11 @@ A songbook.
 1. Remember Maija says what?
 1. Dynamo
 1. Everybody's favorite little girl
-1. Maija Shannon Ulrika
+1. Sometimes she cries herself to sleep
+1. Overtime
 1. Good morning to you
 1. Eskari girl
 1. But not the hippopotamus 
 1. A da da
-1. It's ok
 1. Hei Maija
 1. Tänään

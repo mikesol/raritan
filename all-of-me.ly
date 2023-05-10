@@ -2,13 +2,14 @@
 #(set-global-staff-size 18)
 \include "jazzchords.ily"
 \include "lilyjazz.ily"
+#(ly:font-config-add-font "/Users/mikesol/devel/lilyjazz/fonts/LilyJAZZ.otf")
 
 \paper {
   #(define fonts
      (set-global-fonts
-      #:music "lilyjazz"
-      #:roman "Pea Missy with a Marker"
-      #:sans "Pea Missy with a Marker"
+      #:music "LilyJAZZ"
+      #:roman "LilyJAZZText"
+      #:sans "LilyJAZZText"
       #:factor (/ staff-height pt 20)))
 }
 

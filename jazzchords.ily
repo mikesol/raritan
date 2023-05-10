@@ -19,8 +19,8 @@
 	(if (= alt 0)			; alteration ?
 	  (markup "")		; do nothing
 	  (if (= alt FLAT)	; flat or sharp
-	    (markup ">")
-	    (markup "<")
+	    (markup #:pad-x 0.2 #:raise 1 #:fontsize -2 #:musicglyph "accidentals.flat")
+	    (markup #:pad-x 0.2 #:raise 1 #:fontsize -2 #:musicglyph "accidentals.sharp")
 	  )
 	)
       )

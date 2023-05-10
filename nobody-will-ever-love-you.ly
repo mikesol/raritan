@@ -9,8 +9,8 @@ melody = \relative c' {
           r2 r8 ees,8 |
           d'4 d d |
           d c bes |
-          c4^\< d8 ees4. |
-          d2^\> c4 |
+          c4 d8 ees4. |
+          d2 c4 |
           \codaMark \default
           b8 a b a b a |
           b4. a4 r8 |
@@ -214,7 +214,7 @@ lh = \relative c {
     fis2. |
     e2. ~ |
     e2 r4 |
-    a2 r4 |
+    a2 r4 | \bar "||"
     d2. |
     d, |
     d' |

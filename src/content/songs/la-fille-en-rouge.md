@@ -5,6 +5,18 @@ pubDate: 2026-05-26
 description: "Pop/chanson in D major, mixed French/English."
 ---
 
-A pop song in D major with mixed French and English lyrics. The title means "the girl in red."
+I remember humming an incomplete version of the verse and chorus to myself in the summer of 2006, when I was living on and off in Paris and learning French in earnest for the first time.
 
-Working on finding the right vocalist for this one — the wishlist includes Nick Mulvey, Aron! (Ottignon), Luca Fogale, and others. The chords and lyrics are drafted; the next step is a full arrangement and a collaborator.
+I don't quite remember when or how I connected them, but by 2015 everything must have been wired together because I have recordings of myself humming it. I also added a bridge that didn't feel right but allowed me to imagine the song end-to-end.
+
+Going into the studio in 2023 to make a demo, I found myself rewriting the harmony of the bridge on the spot. Instead of staying in D Major, it cycles to the distant B♭ Major, which pivots on the B♭ to E♭7.
+
+<audio controls src="/audio/la-fille-en-rouge/la-fille-en-rouge-faster.mp3" style="width:100%;margin:1.5rem 0"></audio>
+
+In 2026, I turned my demo into a Suno version that gave an interesting take on the vocals and some novel flourishes in the guitar chords. Despite many rounds of audio prompting, it still plays things too safe during the bridge — scales and arpeggios creating the forward motion instead of licks and strumming.
+
+<audio controls src="/audio/la-fille-en-rouge/la-fille-en-rouge.mp3" style="width:100%;margin:1.5rem 0"></audio>
+
+I'm still looking for a singer/guitarist to collaborate with and fully build out the bridge.
+
+Writing the song 20 years ago, my friend Chris Ayer was just starting as a singer/songwriter. It was the era of Jack Johnson and Jason Mraz. That's still the dream. A singer with his guitar, in an intimate setting, creating a shared moment of young love and optimism.

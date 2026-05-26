@@ -1,31 +1,36 @@
 ---
 import { AstroSeo } from "@lexingtonthemes/seo";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Raritan",
+  description = "Mike Solomon's original songs.",
+} = Astro.props;
+
+const siteUrl = "https://raritan.music";
+const canonical = `${siteUrl}${Astro.url.pathname}`;
+const pageTitle = title === "Raritan" ? "Raritan" : `${title} — Raritan`;
 ---
 
 <AstroSeo
-  title="Your Page Title"
-  description="A detailed description of your page content."
-  canonical="https://yoursite.com/current-page"
+  title={pageTitle}
+  description={description}
+  canonical={canonical}
   openGraph={{
-    url: "https://yoursite.com/current-page",
-    title: "Your Page Title",
-    description: "A detailed description of your page content.",
-    images: [
-      {
-        url: "https://yoursite.com/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Open Graph Image Alt",
-        type: "image/jpeg",
-      },
-    ],
-    site_name: "Your Site Name",
+    url: canonical,
+    title: pageTitle,
+    description: description,
+    site_name: "Raritan",
     type: "website",
     locale: "en_US",
   }}
   twitter={{
-    handle: "@yourhandle",
-    site: "@yoursite",
+    handle: "@stronglynormal",
+    site: "@stronglynormal",
     cardType: "summary_large_image",
   }}
 />

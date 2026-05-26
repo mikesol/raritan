@@ -17,7 +17,7 @@ const { Content } = await render(entry);
 const lyrics = entry.data.lyrics;
 ---
 
-<BaseLayout>
+<BaseLayout title={entry.data.title} description={entry.data.description}>
   <section class="border-b border-base-200">
     <Wrapper variant="standard" class="py-16 lg:py-24">
       <a

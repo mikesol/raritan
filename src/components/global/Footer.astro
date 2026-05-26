@@ -1,0 +1,15 @@
+---
+import Text from "../fundations/elements/Text.astro";
+import Wrapper from "../fundations/containers/Wrapper.astro";
+---
+
+<footer class="w-full pb-6 mt-24 border-t border-base-200">
+  <Wrapper variant="standard" class="pt-6 flex items-center justify-between">
+    <a href="/" class="font-serif text-base-400 text-sm hover:text-base-900 transition-colors">
+      raritan
+    </a>
+    <Text tag="span" class="text-xs text-base-400">
+      &copy; {new Date().getFullYear()} Mike Solomon
+    </Text>
+  </Wrapper>
+</footer>

@@ -1,0 +1,58 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import { songs } from "@/data/songs";
+---
+
+<BaseLayout>
+  <section class="border-b border-base-200">
+    <Wrapper variant="standard" class="py-16 lg:py-24">
+      <Text
+        tag="h1"
+        variant="displayMD"
+        class="font-serif font-light text-base-900 max-w-3xl leading-snug"
+      >
+        Hi, I'm Mike. From 2001 until 2024, I wrote 65 songs that I never shared
+        with anyone. Now I'm ready to share them with the world. This site documents
+        my journey as I flesh them out and bring them to life with new and old friends.
+      </Text>
+    </Wrapper>
+  </section>
+
+  <section>
+    <Wrapper variant="standard" class="py-12 lg:py-16">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-1">
+        {songs.map((song) =>
+          song.slug ? (
+            <a
+              href={`/songs/${song.slug}`}
+              class="group flex items-baseline gap-2 py-2 border-b border-base-100 hover:border-base-300 transition-colors"
+            >
+              <Text
+                tag="span"
+                variant="textSM"
+                class="font-serif text-base-900 group-hover:text-base-600 transition-colors"
+              >
+                {song.title}
+              </Text>
+            </a>
+          ) : (
+            <div class="flex items-baseline gap-2 py-2 border-b border-base-100">
+              <Text
+                tag="span"
+                variant="textSM"
+                class="font-serif text-base-300"
+              >
+                {song.title}
+              </Text>
+            </div>
+          )
+        )}
+      </div>
+      <Text tag="p" variant="textXS" class="mt-8 text-base-400 font-serif">
+        {songs.filter(s => s.slug).length} of {songs.length} songs started
+      </Text>
+    </Wrapper>
+  </section>
+</BaseLayout>

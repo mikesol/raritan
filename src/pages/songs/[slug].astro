@@ -1,0 +1,46 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("songs");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BaseLayout>
+  <section class="border-b border-base-200">
+    <Wrapper variant="standard" class="py-16 lg:py-24">
+      <a
+        href="/"
+        class="text-xs uppercase font-medium text-base-400 hover:text-base-900 tracking-wide transition-colors"
+      >
+        ← All songs
+      </a>
+      <Text
+        tag="h1"
+        variant="displayLG"
+        class="font-serif font-light text-base-900 mt-6"
+      >
+        {entry.data.title}
+      </Text>
+      <Text tag="p" variant="textXS" class="mt-2 text-base-400 uppercase tracking-wide font-medium">
+        {entry.data.album}
+      </Text>
+    </Wrapper>
+  </section>
+
+  <section>
+    <Wrapper variant="prose" class="py-12 lg:py-16 max-w-2xl">
+      <Content />
+    </Wrapper>
+  </section>
+</BaseLayout>

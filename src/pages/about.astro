@@ -1,0 +1,44 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import Text from "@/components/fundations/elements/Text.astro";
+import Wrapper from "@/components/fundations/containers/Wrapper.astro";
+---
+
+<BaseLayout>
+  <section class="border-b border-base-200">
+    <Wrapper variant="standard" class="py-16 lg:py-24">
+      <Text
+        tag="h1"
+        variant="displayMD"
+        class="font-serif font-light text-base-900 max-w-2xl"
+      >
+        About this project
+      </Text>
+    </Wrapper>
+  </section>
+
+  <section>
+    <Wrapper variant="prose" class="py-12 lg:py-16 max-w-2xl">
+      <p>
+        My name is Mike Solomon. I'm a software engineer and composer based between Helsinki and Paris.
+      </p>
+      <p>
+        From 2001 to 2024, I wrote songs — pop songs, chansons, big band charts, lullabies, party songs —
+        and kept them entirely to myself. 65 of them, across five albums I named after streets and
+        neighborhoods where I lived while writing them: Route 18, Lisburn Road, Palm Drive,
+        Impasse de la Blonde, Sepetlahdentie.
+      </p>
+      <p>
+        This site is the record of me finally doing something with them.
+      </p>
+      <p>
+        Some songs have scores. Some have demos. Some have collaborators I'm trying to reach.
+        Some are just a title and a memory. I'm fleshing them out, one at a time, with old
+        friends and new ones. When a song gets started, it gets a page here.
+      </p>
+      <p>
+        <a href="/">← Back to the songs</a>
+      </p>
+    </Wrapper>
+  </section>
+</BaseLayout>

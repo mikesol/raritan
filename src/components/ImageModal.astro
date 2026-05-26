@@ -1,0 +1,42 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+const { src, alt, caption } = Astro.props;
+const id = `modal-${src.replace(/[^a-z0-9]/gi, "-")}`;
+---
+
+<figure class="my-8">
+  <button
+    onclick={`document.getElementById('${id}').showModal()`}
+    class="block w-full text-left p-0 border-0 bg-transparent cursor-zoom-in"
+    aria-label={caption ?? alt}
+  >
+    <div style="height:200px;overflow:hidden;border-radius:4px;">
+      <img
+        src={src}
+        alt={alt}
+        style="width:100%;height:auto;object-fit:cover;object-position:top;"
+      />
+    </div>
+    {caption && (
+      <figcaption style="font-size:0.7rem;text-align:center;margin-top:0.5rem;text-transform:uppercase;letter-spacing:0.08em;color:#aaa;">
+        {caption}
+      </figcaption>
+    )}
+  </button>
+</figure>
+
+<dialog
+  id={id}
+  onclick="this.close()"
+  style="padding:0;border:none;border-radius:6px;max-width:min(90vw,700px);width:100%;box-shadow:0 25px 60px rgba(0,0,0,0.4);"
+>
+  <img src={src} alt={alt} style="width:100%;display:block;" />
+</dialog>
+<style>
+  dialog::backdrop { background: rgba(0,0,0,0.6); }
+</style>

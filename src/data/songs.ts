@@ -62,7 +62,7 @@ export const songs: Song[] = [
   { title: "Remember Maija goes what?", slug: null, album: "Sepetlahdentie" },
   { title: "Samba do Rio de Janeiro", slug: null, album: "Sepetlahdentie" },
   { title: "Sangria", slug: null, album: "Palm Drive" },
-  { title: "Sarah come home", slug: null, album: "Route 18" },
+  { title: "Sarah come home", slug: "sarah-come-home", album: "Route 18" },
   { title: "Sexy Aleksi", slug: null, album: "Sepetlahdentie" },
   { title: "Sophocles", slug: null, album: "Palm Drive" },
   { title: "Steam train", slug: null, album: "Sepetlahdentie" },

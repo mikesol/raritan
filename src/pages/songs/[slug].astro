@@ -39,8 +39,10 @@ const { Content } = await render(entry);
   </section>
 
   <section>
-    <Wrapper variant="prose" class="py-12 lg:py-16 max-w-2xl">
-      <Content />
+    <Wrapper variant="narrow" class="pt-24">
+      <Wrapper variant="prose" class="max-w-xl mx-auto mt-24">
+        <Content />
+      </Wrapper>
     </Wrapper>
   </section>
 </BaseLayout>

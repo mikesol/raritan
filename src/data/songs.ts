@@ -54,7 +54,7 @@ export const songs: Song[] = [
   { title: "Many many miles away", slug: null, album: "Impasse de la Blonde" },
   { title: "Milieu du lit", slug: null, album: "Impasse de la Blonde" },
   { title: "Nobody will ever love you", slug: null, album: "Route 18" },
-  { title: "Oh Marie", slug: null, album: "Route 18" },
+  { title: "Oh Marie", slug: "oh-marie", album: "Route 18" },
   { title: "Oh tell me why", slug: null, album: "Lisburn Road" },
   { title: "On est le 18 juillet", slug: null, album: "Lisburn Road" },
   { title: "Quand je pense à toi", slug: null, album: "Impasse de la Blonde" },

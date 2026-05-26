@@ -55,6 +55,36 @@ lyrics: |
 
 I remember humming an incomplete version of the verse and chorus to myself in the summer of 2006, when I was living on and off in Paris and learning French in earnest for the first time.
 
+<figure class="my-8">
+  <button
+    onclick="document.getElementById('score-modal').showModal()"
+    class="block w-full text-left p-0 border-0 bg-transparent cursor-zoom-in"
+    aria-label="View full score"
+  >
+    <div style="height:200px;overflow:hidden;border-radius:4px;">
+      <img
+        src="/images/la-fille-en-rouge/score.png"
+        alt="La fille en rouge — score sketch"
+        style="width:100%;height:auto;object-fit:cover;object-position:top;"
+      />
+    </div>
+    <figcaption style="font-size:0.7rem;text-align:center;margin-top:0.5rem;text-transform:uppercase;letter-spacing:0.08em;color:#aaa;">
+      Score sketch — click to view full
+    </figcaption>
+  </button>
+</figure>
+
+<dialog
+  id="score-modal"
+  onclick="this.close()"
+  style="padding:0;border:none;border-radius:6px;max-width:min(90vw,700px);width:100%;box-shadow:0 25px 60px rgba(0,0,0,0.4);"
+>
+  <img src="/images/la-fille-en-rouge/score.png" alt="La fille en rouge — score sketch" style="width:100%;display:block;" />
+</dialog>
+<style>
+  #score-modal::backdrop { background: rgba(0,0,0,0.6); }
+</style>
+
 I don't quite remember when or how I connected them, but by 2015 everything must have been wired together because I have recordings of myself humming it. I also added a bridge that didn't feel right but allowed me to imagine the song end-to-end.
 
 Going into the studio in 2023 to make a demo, I found myself rewriting the harmony of the bridge on the spot. Instead of staying in D Major, it cycles to the distant B♭ Major — then uses B♭ as a pivot note, reinterpreting it as the ♭7 of Eø7, to get back.

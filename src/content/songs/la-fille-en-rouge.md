@@ -3,6 +3,54 @@ title: "La fille en rouge"
 album: "Route 18"
 pubDate: 2026-05-26
 description: "Pop/chanson in D major, mixed French/English."
+lyrics: |
+  Tell me why do we fall in love
+  When there's so much pain
+  There is nothing but pain for you
+  Never is the right time
+  So blue
+  You saved my troubled soul
+  It's true, I need you
+
+  La fille en rouge
+  Oh il faut que je bouge
+  You know she comes to me and stands her ground
+  Says the world is round
+  And I am found
+
+  Tell me why do we break apart
+  When the world needs love
+  Why can't we try to love, or are you
+  Sick and tired of trying
+  Oh you
+  When walls come crumbling down
+  It's true, I think of you
+
+  La fille en rouge
+  Oh il faut que je bouge
+  You know she comes to me, her heart in hand
+  With her sweet demand
+  To take a stand
+
+  "Qu'est-ce que nous sommes maintenant", et elle en rit.
+  Pourquoi est-ce que tu me demandais ?
+  "Qu'est-ce que tu veux maintenant elle", c'est ce qu'elle me dit.
+  Pas la peine tu sais déjà
+  Rien ne va quand tu n'es pas là
+
+  "Qu'est-ce que nous sommes maintenant", et elle en rit.
+  Pourquoi est-ce que tu me demandais ?
+  "Qu'est-ce que tu veux maintenant", putain j'en chie.
+  Pas la peine tu sais déjà
+  Rien ne va quand tu n'es pas là
+
+  So tell me why do we start again
+  When we know the end
+  Why do we bother to pretend
+
+  La fille en rouge
+
+  La la la...
 ---
 
 I remember humming an incomplete version of the verse and chorus to myself in the summer of 2006, when I was living on and off in Paris and learning French in earnest for the first time.

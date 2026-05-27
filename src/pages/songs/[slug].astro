@@ -49,9 +49,15 @@ const lyrics = entry.data.lyrics;
 
   <section class="border-t border-base-200 mt-16">
     <Wrapper variant="narrow" class="py-16">
-      <Text tag="p" variant="textXS" class="uppercase tracking-wide font-medium text-base-400 mb-6">
+      <Text tag="p" variant="textXS" class="uppercase tracking-wide font-medium text-base-400 mb-1">
         Lyrics
       </Text>
+      {entry.data.poet && (
+        <Text tag="p" variant="textXS" class="text-base-400 italic mb-6">
+          poem by {entry.data.poet}
+        </Text>
+      )}
+      {!entry.data.poet && <div class="mb-6" />}
       <pre class="font-serif text-base text-base-700 whitespace-pre-wrap leading-relaxed">{lyrics}</pre>
     </Wrapper>
   </section>

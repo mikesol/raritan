@@ -53,12 +53,11 @@ const lyrics = entry.data.lyrics;
         Lyrics
       </Text>
       {entry.data.poet && (
-        <Text tag="p" variant="textXS" class="text-base-400 italic mb-6">
+        <Text tag="p" variant="textXS" class="text-base-400 italic mb-5">
           poem by {entry.data.poet}
         </Text>
       )}
-      {!entry.data.poet && <div class="mb-6" />}
-      <pre class="font-serif text-base text-base-700 whitespace-pre-wrap leading-relaxed">{lyrics}</pre>
+      <pre class="font-serif text-base text-base-700 whitespace-pre-wrap leading-relaxed mt-6">{lyrics}</pre>
     </Wrapper>
   </section>
 </BaseLayout>

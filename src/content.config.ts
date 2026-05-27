@@ -89,6 +89,7 @@ const songs = defineCollection({
     pubDate: z.coerce.date(),
     description: z.string().optional(),
     lyrics: z.string(),
+    poet: z.string().optional(),
   }),
 });
 

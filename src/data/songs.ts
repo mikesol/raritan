@@ -41,7 +41,7 @@ export const songs: Song[] = [
   { title: "Jenna come out", slug: null, album: "Palm Drive" },
   { title: "Jérôme (nobody will love me)", slug: null, album: "Impasse de la Blonde" },
   { title: "Joli petit amour", slug: "joli-petit-amour", album: "Route 18" },
-  { title: "Joséphine", slug: null, album: "Route 18" },
+  { title: "Joséphine", slug: "josephine", album: "Route 18" },
   { title: "Joy to the world heavenly father", slug: null, album: "Palm Drive" },
   { title: "Jusqu'à ces derniers temps", slug: null, album: "Lisburn Road" },
   { title: "La fille en rouge", slug: "la-fille-en-rouge", album: "Route 18" },

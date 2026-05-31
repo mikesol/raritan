@@ -30,7 +30,7 @@ export const songs: Song[] = [
   { title: "Gnus bleus", slug: null, album: "Lisburn Road" },
   { title: "Goodbye everybody / L'un vient de l'autre", slug: null, album: "Route 18" },
   { title: "Good morning to you", slug: null, album: "Sepetlahdentie" },
-  { title: "Happier Together", slug: "happier-together", album: "Route 18" },
+  { title: "Happier Together", slug: "happier-together", album: "Impasse de la Blonde" },
   { title: "Hei Maija (Kultani Rakas)", slug: null, album: "Sepetlahdentie" },
   { title: "He's my savior", slug: null, album: "Lisburn Road" },
   { title: "Help me get my feet on the ground", slug: null, album: "Palm Drive" },

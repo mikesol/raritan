@@ -16,7 +16,7 @@ export const songs: Song[] = [
   { title: "But not the hippopotamus", slug: null, album: "Sepetlahdentie" },
   { title: "Ça ne va pas", slug: null, album: "Impasse de la Blonde" },
   { title: "Ça va, Apolline", slug: null, album: "Route 18" },
-  { title: "C'est quoi ce bordel", slug: null, album: "Route 18" },
+  { title: "C'est quoi ce bordel", slug: "cest-quoi-ce-bordel", album: "Route 18" },
   { title: "Christmas time", slug: null, album: "Lisburn Road" },
   { title: "Come home", slug: null, album: "Lisburn Road" },
   { title: "Down with the ramparts", slug: null, album: "Palm Drive" },

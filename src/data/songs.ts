@@ -74,7 +74,7 @@ export const songs: Song[] = [
   { title: "That is how I lost my cat", slug: null, album: "Route 18" },
   { title: "This one's for Jen Grahamm", slug: null, album: "Palm Drive" },
   { title: "Through the roof", slug: null, album: "Impasse de la Blonde" },
-  { title: "Tu peux me montrer le chemin ?", slug: null, album: "Route 18" },
+  { title: "Tu peux m'indiquer le chemin", slug: "tu-peux-mindiquer-le-chemin", album: "Route 18" },
   { title: "We're gonna win Big Game", slug: null, album: "Palm Drive" },
   { title: "You and I", slug: null, album: "Sepetlahdentie" },
   { title: "You gotta let up if you wanna get up", slug: null, album: "Lisburn Road" },

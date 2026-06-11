@@ -72,6 +72,7 @@ export const songs: Song[] = [
   { title: "Sophocles", slug: null, album: "Palm Drive" },
   { title: "Steam train", slug: null, album: "Sepetlahdentie" },
   { title: "Swirving", slug: null, album: "Lisburn Road" },
+  { title: "Ta mère en shorts", slug: null, album: "Impasse de la Blonde" },
   { title: "Tänään", slug: null, album: "Sepetlahdentie" },
   { title: "That is how I lost my cat", slug: null, album: "Route 18" },
   { title: "This one's for Jen Grahamm", slug: null, album: "Palm Drive" },

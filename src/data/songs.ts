@@ -23,7 +23,7 @@ export const songs: Song[] = [
   { title: "Do you care", slug: null, album: "Impasse de la Blonde" },
   { title: "Down with the ramparts", slug: null, album: "Palm Drive" },
   { title: "Dynamo", slug: null, album: "Sepetlahdentie" },
-  { title: "Eskari girl", slug: null, album: "Sepetlahdentie" },
+  { title: "Eskari girl", slug: "eskari-girl", album: "Sepetlahdentie" },
   { title: "Everybody's favorite little girl", slug: null, album: "Sepetlahdentie" },
   { title: "Falling apart at the seams", slug: null, album: "Lisburn Road" },
   { title: "Faster than lightning", slug: null, album: "Sepetlahdentie" },

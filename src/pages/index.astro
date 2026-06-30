@@ -3,6 +3,12 @@ import BaseLayout from "@/layouts/BaseLayout.astro";
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
 import { songs } from "@/data/songs";
+
+const albums = [...new Set(songs.map((s) => s.album))];
+const songsByAlbum = albums.map((album) => ({
+  album,
+  songs: songs.filter((s) => s.album === album),
+}));
 ---
 
 <BaseLayout>
@@ -20,7 +26,18 @@ import { songs } from "@/data/songs";
 
   <section>
     <Wrapper variant="standard" class="py-12 lg:py-16">
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-1">
+      <div class="flex gap-4 mb-8 text-xs uppercase tracking-wide font-medium">
+        <button
+          id="btn-song"
+          class="text-base-900 border-b border-base-900 pb-0.5 transition-colors"
+        >by song</button>
+        <button
+          id="btn-album"
+          class="text-base-400 hover:text-base-600 pb-0.5 transition-colors"
+        >by album</button>
+      </div>
+
+      <div id="view-song" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-1">
         {songs.map((song) =>
           song.slug ? (
             <a
@@ -49,6 +66,66 @@ import { songs } from "@/data/songs";
         )}
       </div>
 
+      <div id="view-album" class="hidden space-y-10">
+        {songsByAlbum.map(({ album, songs: albumSongs }) => (
+          <div>
+            <h2 class="font-serif text-lg text-base-500 mb-3">{album}</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-1">
+              {albumSongs.map((song) =>
+                song.slug ? (
+                  <a
+                    href={`/songs/${song.slug}`}
+                    class="group flex items-baseline gap-2 py-2 border-b border-base-100 hover:border-base-300 transition-colors"
+                  >
+                    <Text
+                      tag="span"
+                      variant="textSM"
+                      class="font-serif text-base-900 group-hover:text-base-600 transition-colors"
+                    >
+                      {song.title}
+                    </Text>
+                  </a>
+                ) : (
+                  <div class="flex items-baseline gap-2 py-2 border-b border-base-100">
+                    <Text
+                      tag="span"
+                      variant="textSM"
+                      class="font-serif text-base-300"
+                    >
+                      {song.title}
+                    </Text>
+                  </div>
+                )
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
     </Wrapper>
   </section>
 </BaseLayout>
+
+<script>
+  const btnSong = document.getElementById("btn-song")!;
+  const btnAlbum = document.getElementById("btn-album")!;
+  const viewSong = document.getElementById("view-song")!;
+  const viewAlbum = document.getElementById("view-album")!;
+
+  function activate(mode: "song" | "album") {
+    const isSong = mode === "song";
+    viewSong.classList.toggle("hidden", !isSong);
+    viewAlbum.classList.toggle("hidden", isSong);
+    btnSong.classList.toggle("text-base-900", isSong);
+    btnSong.classList.toggle("border-b", isSong);
+    btnSong.classList.toggle("border-base-900", isSong);
+    btnSong.classList.toggle("text-base-400", !isSong);
+    btnAlbum.classList.toggle("text-base-900", !isSong);
+    btnAlbum.classList.toggle("border-b", !isSong);
+    btnAlbum.classList.toggle("border-base-900", !isSong);
+    btnAlbum.classList.toggle("text-base-400", isSong);
+  }
+
+  btnSong.addEventListener("click", () => activate("song"));
+  btnAlbum.addEventListener("click", () => activate("album"));
+</script>

@@ -10,7 +10,7 @@ export interface Song {
 export const songs: Song[] = [
   { title: "86 (occupies a place)", slug: null, album: "Palm Drive" },
   { title: "A da da", slug: null, album: "Sepetlahdentie" },
-  { title: "Adendale", slug: null, album: "Route 18" },
+  { title: "Addendale", slug: "addendale", album: "Route 18" },
   { title: "Airball", slug: null, album: "Sepetlahdentie" },
   { title: "Bill", slug: null, album: "Palm Drive" },
   { title: "But not the hippopotamus", slug: null, album: "Sepetlahdentie" },

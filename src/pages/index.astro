@@ -2,12 +2,12 @@
 import BaseLayout from "@/layouts/BaseLayout.astro";
 import Text from "@/components/fundations/elements/Text.astro";
 import Wrapper from "@/components/fundations/containers/Wrapper.astro";
-import { songs } from "@/data/songs";
+import { songs, albumOrder } from "@/data/songs";
 
-const albums = [...new Set(songs.map((s) => s.album))];
-const songsByAlbum = albums.map((album) => ({
+const alphabetical = [...songs].sort((a, b) => a.title.localeCompare(b.title));
+const songsByAlbum = albumOrder.map((album) => ({
   album,
-  songs: songs.filter((s) => s.album === album),
+  songs: songs.filter((s) => s.album === album).sort((a, b) => a.track - b.track),
 }));
 ---
 
@@ -38,7 +38,7 @@ const songsByAlbum = albums.map((album) => ({
       </div>
 
       <div id="view-song" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-1">
-        {songs.map((song) =>
+        {alphabetical.map((song) =>
           song.slug ? (
             <a
               href={`/songs/${song.slug}`}

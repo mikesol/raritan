@@ -25,7 +25,7 @@ export const songs: Song[] = [
   { title: "Joséphine", slug: "josephine", album: "Route 18", track: 5 },
   { title: "Tu peux m'indiquer le chemin", slug: "tu-peux-mindiquer-le-chemin", album: "Route 18", track: 6 },
   { title: "Sarah come home", slug: "sarah-come-home", album: "Route 18", track: 7 },
-  { title: "That is how I lost my cat", slug: null, album: "Route 18", track: 8 },
+  { title: "That is how I lost my cat", slug: "that-is-how-i-lost-my-cat", album: "Route 18", track: 8 },
   { title: "Nobody will ever love you", slug: "nobody-will-ever-love-you", album: "Route 18", track: 9 },
   { title: "Ça va, Apolline", slug: null, album: "Route 18", track: 10 },
   { title: "Addendale", slug: "addendale", album: "Route 18", track: 11 },

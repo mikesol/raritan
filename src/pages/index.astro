@@ -80,6 +80,13 @@ const songsByAlbum = albumOrder.map((album) => ({
                     <Text
                       tag="span"
                       variant="textSM"
+                      class="font-serif text-base-400 tabular-nums w-5 shrink-0"
+                    >
+                      {song.track}
+                    </Text>
+                    <Text
+                      tag="span"
+                      variant="textSM"
                       class="font-serif text-base-900 group-hover:text-base-600 transition-colors"
                     >
                       {song.title}
@@ -87,6 +94,13 @@ const songsByAlbum = albumOrder.map((album) => ({
                   </a>
                 ) : (
                   <div class="flex items-baseline gap-2 py-2 border-b border-base-100">
+                    <Text
+                      tag="span"
+                      variant="textSM"
+                      class="font-serif text-base-300 tabular-nums w-5 shrink-0"
+                    >
+                      {song.track}
+                    </Text>
                     <Text
                       tag="span"
                       variant="textSM"

@@ -101,11 +101,11 @@ export const songs: Song[] = [
   { title: "Tänään", slug: null, album: "Sepetlahdentie", track: 17 },
 
   // Lotissement Harrouchi
-  { title: "I can't live another day without you", slug: "i-cant-live-another-day-without-you", album: "Lotissement Harrouchi", track: 1 },
-  { title: "Jamie's not a robber", slug: "jamies-not-a-robber", album: "Lotissement Harrouchi", track: 2 },
-  { title: "Everybody here", slug: "everybody-here", album: "Lotissement Harrouchi", track: 3 },
-  { title: "Do you care", slug: "do-you-care", album: "Lotissement Harrouchi", track: 4 },
-  { title: "La dix-huitième", slug: "la-dix-huitieme", album: "Lotissement Harrouchi", track: 5 },
+  { title: "I can't live another day without you", slug: null, album: "Lotissement Harrouchi", track: 1 },
+  { title: "Jamie's not a robber", slug: null, album: "Lotissement Harrouchi", track: 2 },
+  { title: "Everybody here", slug: null, album: "Lotissement Harrouchi", track: 3 },
+  { title: "Do you care", slug: null, album: "Lotissement Harrouchi", track: 4 },
+  { title: "La dix-huitième", slug: null, album: "Lotissement Harrouchi", track: 5 },
   { title: "It's My Policy", slug: null, album: "Lotissement Harrouchi", track: 6 },
   { title: "I Will Be Your Home", slug: null, album: "Lotissement Harrouchi", track: 7 },
 ];

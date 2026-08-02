@@ -14,6 +14,7 @@ export const albumOrder = [
   "Palm Drive",
   "Impasse de la Blonde",
   "Sepetlahdentie",
+  "Lotissement Harrouchi",
 ];
 
 export const songs: Song[] = [
@@ -76,10 +77,9 @@ export const songs: Song[] = [
   { title: "Jérôme (nobody will love me)", slug: null, album: "Impasse de la Blonde", track: 10 },
   { title: "I ran a red light", slug: null, album: "Impasse de la Blonde", track: 11 },
   { title: "Il n'y aura personne", slug: null, album: "Impasse de la Blonde", track: 12 },
-  { title: "Désiré", slug: null, album: "Impasse de la Blonde", track: 13 },
-  { title: "Do you care", slug: null, album: "Impasse de la Blonde", track: 14 },
-  { title: "La dix-huitième", slug: null, album: "Impasse de la Blonde", track: 15 },
-  { title: "Ta mère en shorts", slug: null, album: "Impasse de la Blonde", track: 16 },
+  { title: "C'est pour ça que nous sommes là", slug: null, album: "Impasse de la Blonde", track: 13 },
+  { title: "Désiré", slug: null, album: "Impasse de la Blonde", track: 14 },
+  { title: "Ta mère en shorts", slug: null, album: "Impasse de la Blonde", track: 15 },
 
   // Sepetlahdentie
   { title: "Samba do Rio de Janeiro", slug: null, album: "Sepetlahdentie", track: 1 },
@@ -99,4 +99,13 @@ export const songs: Song[] = [
   { title: "It's ok", slug: null, album: "Sepetlahdentie", track: 15 },
   { title: "Hei Maija (Kultani Rakas)", slug: null, album: "Sepetlahdentie", track: 16 },
   { title: "Tänään", slug: null, album: "Sepetlahdentie", track: 17 },
+
+  // Lotissement Harrouchi
+  { title: "I can't live another day without you", slug: "i-cant-live-another-day-without-you", album: "Lotissement Harrouchi", track: 1 },
+  { title: "Jamie's not a robber", slug: "jamies-not-a-robber", album: "Lotissement Harrouchi", track: 2 },
+  { title: "Everybody here", slug: "everybody-here", album: "Lotissement Harrouchi", track: 3 },
+  { title: "Do you care", slug: "do-you-care", album: "Lotissement Harrouchi", track: 4 },
+  { title: "La dix-huitième", slug: "la-dix-huitieme", album: "Lotissement Harrouchi", track: 5 },
+  { title: "It's My Policy", slug: null, album: "Lotissement Harrouchi", track: 6 },
+  { title: "I Will Be Your Home", slug: null, album: "Lotissement Harrouchi", track: 7 },
 ];

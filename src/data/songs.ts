@@ -62,7 +62,6 @@ export const songs: Song[] = [
   { title: "This one's for Jen Grahamm", slug: null, album: "Palm Drive", track: 11 },
   { title: "Help me get my feet on the ground", slug: null, album: "Palm Drive", track: 12 },
   { title: "Down with the ramparts", slug: null, album: "Palm Drive", track: 13 },
-  { title: "Never gonna take me back", slug: null, album: "Palm Drive", track: 14 },
 
   // Impasse de la Blonde
   { title: "Le colo-colo", slug: null, album: "Impasse de la Blonde", track: 1 },
@@ -108,4 +107,5 @@ export const songs: Song[] = [
   { title: "La dix-huitième", slug: null, album: "Lotissement Harrouchi", track: 5 },
   { title: "It's My Policy", slug: null, album: "Lotissement Harrouchi", track: 6 },
   { title: "I Will Be Your Home", slug: null, album: "Lotissement Harrouchi", track: 7 },
+  { title: "Never gonna take me back", slug: null, album: "Lotissement Harrouchi", track: 8 },
 ];

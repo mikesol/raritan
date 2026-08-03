@@ -108,4 +108,5 @@ export const songs: Song[] = [
   { title: "It's My Policy", slug: null, album: "Lotissement Harrouchi", track: 6 },
   { title: "I Will Be Your Home", slug: null, album: "Lotissement Harrouchi", track: 7 },
   { title: "Never gonna take me back", slug: null, album: "Lotissement Harrouchi", track: 8 },
+  { title: "Billie Heather", slug: null, album: "Lotissement Harrouchi", track: 9 },
 ];
